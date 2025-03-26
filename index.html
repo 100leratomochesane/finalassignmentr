@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+</head>
+    <meta name="viewport" content="width=device=width,initial scale=1.0">
+   <link rel="stylesheet" href="style.css"> 
+    <title>IWB Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="header">
+        <nav>  
+          <a hre="index.htm"><img src="images/logo.png"></a  >
+          <div class="nav-links" id="navLinks">  
+            <i class="fa fa-times" onclick="hideMenu()"></i>  
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">SPONSORS</a></li> 
+            </ul>
+          </div>
+          <i class="fa fa-bars" onlick="showMenu"></i>  
+        </nav>
+        <img src="Images/AD.png" margin="150px">
+    <div class="wrapper">
+        <img src="images/Load.jpg">
+        <div class="text-box">
+            <h1>TIPS TO CONCENTRATE IN CLASS</h1>
+                <ol type="1">
+                    <li><h2>Remove distractions, like your phone.</h2>
+                        <p1>Distractions could be a computer, a phone, small items you could play with, something around you<br> like your friend or a window.
+                        </p1>
+                    </li>
+                    <li><h2>Prepare before class to stay focused on the lesson</h2>
+                        <p1>Being in the right mindset before class can help you pay attention. Before class starts, try looking<br> over your homework and reading the previous day's notes. This can get your brain into "class mode," making it easier to focus.
+                        </p1>
+                    </li>
+                    <li><h2>Remove distractions, like your phone.</h2>
+                        <p1>If you are having a hard time focusing, try changing where you sit. A new space and environment <BR>can help you focus more on the lesson, especially if the old spot was full of distractions. So opt for a seat in the front to an eye on the teacher and board. Studies show that students who sit in front have better grades on average.
+                        </p1>
+                    </li>
+                </ol>
+       </div> 
+    </div>     
+     </section>    
+     <!---- course ----->
+     <section class="Services">
+        <h1> SERVICES WE OFFER</h1>
+        <p>WE RECYCLE</p> 
+        <div class="row">
+            <div class="Services-col">
+                <img src="images/ram.jpeg" alt="">
+                <h3>RAMs</h3>
+            </div>
+            <div class="Services-col">
+                <img src="images/Harddrive.jpeg" alt="">
+                <h3>Hardrives</h3>
+            </div>
+            <div class="Services-col">
+                <img src="images/Motherboard.jpg" alt="">
+                <h3>Motherboards</h3>
+            </div>
+        </div>
+     </section>
+     <section class="sponsors">
+
+
+     </section> 
+     <!---- footer ----> 
+     <section class="footer">
+        <h4> CONTACT US ON <br>+266 63810239/57512800  </h4>
+     </section> 
+
+
+
+     <!---- Scprit ----->
+     <Script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+</Script>
+</body>
+</html>
